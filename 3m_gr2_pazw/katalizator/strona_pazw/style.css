@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #523E31;
+    height: 250px;
+    color: white;
+}
+
+nav {
+    background-color: #523E31;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+}
