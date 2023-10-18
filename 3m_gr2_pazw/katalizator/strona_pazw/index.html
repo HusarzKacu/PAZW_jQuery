@@ -15,12 +15,29 @@
         <h1>pies</h1>
     </header>
     <nav>
-        <div>
-            <a href="index.html">Strona głowna</a>
-        </div>
-        <div>
-            <a href=""></a>
-        </div>
+        <ul>
+            <li><a href="#">Start</a>
+            <li><a href="#">O nas</a>
+            <li class="menudrop"><a href="#">Oferta</a>
+                <ul class="drop">
+                    <li><a href="#">Oferta 01</a></li>
+                    <li><a href="#">Oferta 02</a></li>
+                    <li><a href="#">Oferta 03</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Aktualności</a>
+            <li><a href="#">Kontakt</a>
+        </ul>
+        <script>
+            $(".menudrop")
+            .click(function() {
+                $(".drop").show("fast");
+            });
+            $(".menudrop")
+            .click(function() {
+                $(".drop").hide("fast");     
+            });
+    </script>
     </nav>
     <main>
 
