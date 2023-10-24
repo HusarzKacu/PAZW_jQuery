@@ -69,8 +69,8 @@ nav ul li ul li {
 
 nav ul li ul li a {
 	background: transparent;
-	color: #555;
-	border-bottom: 1px solid #DDE0E7;
+	color: white;
+	border-bottom: 1px solid #523E31;
 }
 
 nav ul li ul li a:hover,
@@ -80,8 +80,9 @@ nav ul li ul li a:focus {
 }
 
 .drop {
+	color: white;
 	display: none;
 	position: absolute;
-	background: #fff;
+	background: #331F12;
 	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
 }
