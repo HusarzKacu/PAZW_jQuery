@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../jquery.js"></script>
+
+    <link rel="stylesheet" href="../../jquery-ui.min.css" type="text/css">
+    <script src="../../external/jquery/jquery.js"></script>
+    <script src="../../jquery-ui.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+      $( function() {
+        $( "#accordion" ).accordion();
+      } );
+
+      $(".menudrop")
+      .click(function() {
+        $(".drop").toggle(300);
+      });
+      $( function() {
+    $( "#tabs" ).tabs();
+  } );
+    </script>
+  </head>
+  <body>
+    <header>
+        <h1>Arsenal F.C.</h1>
+        <img class="herb" src="Arsenal-herb.png" alt="Herb klubu Arsenal">
+        <nav>
+          <ul>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="ars.html">O klubie</a></li>
+            <li><a href="index.html">Historia</a></li>
+            <li class="menudrop"><a href="#">Mecze</a>
+              <ul class="drop">
+                <li><a href="#">Mecz 11.11</a></li>
+                <li><a href="#">Mecz 8.11</a></li>
+                <li><a href="#">Mecz 4.11</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <main style="color: white;font-size: 30px;">
+      <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1"></a></li>
+          <li><a href="#tabs-2"></a></li>
+          <li><a href="#tabs-3"></a></li>
+          <li><a href="#tabs-4"></a></li>
+        </ul>
+        <div id="tabs-1">
+          <p>Arsenal Football Club (wym. [ˈɑ:sənl] lub [ˈɑ:snəl]; przydomek Kanonierzy) – angielski klub piłkarski z siedzibą w północnym Londynie, w dzielnicy Holloway. Jest jedną z najbardziej utytułowanych angielskich drużyn, 13-krotnym mistrzem kraju, 14-krotnym zdobywcą Pucharu Anglii i najdłużej utrzymującym się w najwyższej klasie rozgrywkowej zespołem w Anglii – od 1919 roku.</p>
+        </div>
+        <div id="tabs-2">
+          <p>Tradycyjnymi barwami klubu są czerwony i biały. Barwy te w historii klubu przyjmowały różne odcienie. Arsenal zmieniał także swój stadion; początkowo mieścił się on w Woolwich, w południowo-wschodnim Londynie, w 1913 roku drużyna przeniosła się na północ miasta, do Arsenal Stadium w Highbury. W 2006 roku klub przeprowadził się na Emirates Stadium położony w Holloway.</p>
+        </div>
+        <div id="tabs-3">
+          <p>Klub posiada liczną i wierną grupę kibiców. Największym rywalem zespołu jest Tottenham Hotspur, a mecze Arsenalu z tym klubem określane są jako derby północnego Londynu. Arsenal jest jednym z najwartościowszych klubów w Anglii. Szacowana jego wartość w 2008 roku wynosiła ponad 600 milionów funtów. Dzięki swojej renomie regularnie pojawia się w brytyjskich mediach. Ponadto corocznie organizuje na swoim stadionie przedsezonowy towarzyski turniej Emirates Cup[3]. Zespół kobiecy Arsenalu jest najbardziej utytułowaną żeńską drużyną piłkarską w kraju</p>
+        </div>
+        <div id="tabs-4">
+          <p>
+            Klub posiada liczną i wierną grupę kibiców. Największym rywalem zespołu jest Tottenham Hotspur, a mecze Arsenalu z tym klubem określane są jako derby północnego Londynu. Arsenal jest jednym z najwartościowszych klubów w Anglii. Szacowana jego wartość w 2008 roku wynosiła ponad 600 milionów funtów. Dzięki swojej renomie regularnie pojawia się w brytyjskich mediach. Ponadto corocznie organizuje na swoim stadionie przedsezonowy towarzyski turniej Emirates Cup[3]. Zespół kobiecy Arsenalu jest najbardziej utytułowaną żeńską drużyną piłkarską w kraju.</p>
+        </div>
+      </div>
+      <p>
+        </p><p>
+      </div>
+    </main>
+  </body>
+</html>
+
+<!#B8A293>
+<!#85756A>
+<!#EBB28D>
+<!#523E31>
+<!#331F12>
