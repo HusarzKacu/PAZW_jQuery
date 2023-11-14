@@ -98,9 +98,15 @@ nav ul li ul li a:focus {
 }
 
 main {
-	background-color: #331F12;
+	background-color: #523E31;
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
 }
 
 #accordion {
 	max-width: 50%;
+}
+
+body {
+	background-color: #331F12;
 }
